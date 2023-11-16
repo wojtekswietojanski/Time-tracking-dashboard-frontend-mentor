@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    </style>
+  </head>
+  <body>
+    <main> 
+      <div id="userPanel">
+        <div>
+          <img src="images/image-jeremy.png" alt="">
+          <p>Raport for</p>
+          <p id="userName">Wojciech Swietojanski</p>
+        </div>
+        <button class="ChangeTimeButton" onclick="daily()" id="btn1">Daily</button>
+        <button class="ChangeTimeButton" onclick="weekly()" id="btn2">Weekly</button>
+        <button class="ChangeTimeButton" onclick="monthly()" id="btn3">Monthly</button>
+      </div>
+      <div id="work">
+        <img src="images\portfolio.png"  class="backgroundImg"  alt="">
+        <div class="content" id="work1">
+          <div class="topContainer">
+            <div>work</div>
+            <img src="images/more.png" alt="">
+          </div>
+          <p class="present">32hrs</p>
+          <p class="last">Last Week -28hrs</p>
+        </div>
+      </div>
+      <div id="play">
+        <img src="images/video-game.png" class="backgroundImg" alt="">
+        <div class="content" id="play1">         
+          <div class="topContainer">
+            <div>play</div>
+            <img src="images/more.png" alt="">
+          </div>
+          <p class="present"></p>
+          <p class="last"></p></div>
+      </div>
+      <div id="study">
+        <img src="images/graduation-hat.png" class="backgroundImg" alt="">
+        <div class="content" id="study1">          
+          <div class="topContainer">
+            <div>study</div>
+            <img src="images/more.png" alt="">
+          </div>
+          <p class="present"></p>
+          <p class="last"></p></div>
+      </div>
+      <div id="excercise">
+        <img src="images/run.png" class="backgroundImg" alt="">
+        <div class="content" id="excercise1">          
+          <div class="topContainer">
+            <div>excercise</div>
+            <img src="images/more.png" alt="">
+          </div>
+          <p class="present"></p>
+          <p class="last"></p></div>
+      </div>
+      <div id="social">
+        <img src="images/bubble-chat.png" class="backgroundImg" alt="">
+        <div class="content" id="social1">
+          <div class="topContainer">
+            <div>social</div>
+            <img src="images/more.png" alt="">
+          </div>
+          <p class="present"></p>
+          <p class="last"></p></div>
+        </div>
+      </div>
+      <div id="selfCare">
+        <img src="images/love.png" class="backgroundImg" alt="">
+        <div class="content" id="selfCare1">
+          <div class="topContainer">
+            <div>self care</div>
+            <img src="images/more.png" alt="">
+          </div>
+          <p class="present"></p>
+          <p class="last"></p></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
